@@ -4,7 +4,6 @@ metadata:
   name: unsecured-nginx
   labels:
     app: nginx
-  namespace: unsecured-nginx
 spec:
   containers:
     - name: nginx
